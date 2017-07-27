@@ -96,8 +96,8 @@ expect失敗を検知できない
 
 ## できそうなこと
 
-- RSpecの例外収集機構を書き換える
-failure_notifierなど
+- RSpecの失敗収集機構を例外方式から書き換える
+failure_notifier辺り
 - 非同期関数をスレッド以外で書き直す
 Fiber？
 - 非同期関数の結果をメインスレッドに戻す
